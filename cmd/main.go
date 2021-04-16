@@ -10,6 +10,6 @@ var cli struct {
 
 func main() {
 	var rootCmd = &cobra.Command{Use: "Set port to listen on"}
-	rootCmd.AddCommand(subcmd.serverCmd)
+	rootCmd.AddCommand(subcmd.ServerCmd)
 	rootCmd.Execute()
 }

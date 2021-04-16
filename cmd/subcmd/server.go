@@ -2,7 +2,8 @@ package subcmd
 
 import "github.com/spf13/cobra"
 
-var serverCmd = &cobra.Command{
+// ServerCmd is the main server command
+var ServerCmd = &cobra.Command{
 	Use:   "server",
 	Short: "Server hosts the web site",
 	Long:  `A base server interface running on a device`,
