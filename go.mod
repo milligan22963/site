@@ -1,4 +1,4 @@
-module github.com/milligan22963/site/cmd/main.go
+module github.com/milligan22963/site
 
 go 1.16
 
