@@ -1,6 +1,7 @@
 package subcmd
 
 import (
+	"github.com/milligan22963/site/pkg/server"
 	"github.com/spf13/cobra"
 )
 
@@ -10,6 +11,8 @@ var ServerCmd = &cobra.Command{
 	Short: "Server hosts the web site",
 	Long:  `A base server interface running on a device`,
 	Run: func(cmd *cobra.Command, args []string) {
-		serverInstance := ServerInstance{}
+		serverInstance := server.ServerInstance{}
+
+		serverInstance.Run()
 	},
 }
