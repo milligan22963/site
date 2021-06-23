@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/milligan22963/site/cmd/subcmd"
 	"github.com/spf13/cobra"
 )
 
